@@ -379,7 +379,7 @@ looker.plugins.visualizations.add({
  `
  var dosbox = new Dosbox({
         id: "dosbox",
-        onload: function (dosbox) {   dosbox.run("https://github.com/RichardCzechowski/looker_doom/raw/master/doom19s_deiced.zip", "DOOM.EXE");
+        onload: function (dosbox) {   dosbox.run("https://cdn.jsdelivr.net/gh/darrengruber/docker-em-dosbox-doom@afad47b2e6fdee2f52e0025bac2e9ce3ef9752a0/doom_shareware/doom19s_deiced.zip", "DOOM.EXE");
         },
         onrun: function (dosbox, app) {
           console.log("App '" + app + "' is running");
