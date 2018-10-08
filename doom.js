@@ -360,7 +360,7 @@ looker.plugins.visualizations.add({
           #dosbox {
             height: 100%;
           }
-          .dosbox-container {
+          .dosbox-container, .dosbox-container > canvas {
             width: 100%;
             height: 100%;
           }
